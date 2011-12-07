@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AECCDB71332F2F500BF7DA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AECCDB61332F2F500BF7DA2 /* UIKit.framework */; };
+		5AECCDB91332F2F500BF7DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AECCDB81332F2F500BF7DA2 /* Foundation.framework */; };
+		5AECCDBB1332F2F500BF7DA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AECCDBA1332F2F500BF7DA2 /* CoreGraphics.framework */; };
+		5AECCDC11332F2F500BF7DA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AECCDBF1332F2F500BF7DA2 /* InfoPlist.strings */; };
+		5AECCDC41332F2F500BF7DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECCDC31332F2F500BF7DA2 /* main.m */; };
+		5AECCDC71332F2F500BF7DA2 /* ComputerVisionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECCDC61332F2F500BF7DA2 /* ComputerVisionAppDelegate.m */; };
+		5AECCDCA1332F2F500BF7DA2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AECCDC81332F2F500BF7DA2 /* MainWindow.xib */; };
+		5AECCDCD1332F2F500BF7DA2 /* ComputerVisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECCDCC1332F2F500BF7DA2 /* ComputerVisionViewController.m */; };
+		5AECCDD01332F2F500BF7DA2 /* ComputerVisionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AECCDCE1332F2F500BF7DA2 /* ComputerVisionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AECCDB21332F2F500BF7DA2 /* ComputerVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AECCDB61332F2F500BF7DA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AECCDB81332F2F500BF7DA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AECCDBA1332F2F500BF7DA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AECCDBE1332F2F500BF7DA2 /* ComputerVision-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComputerVision-Info.plist"; sourceTree = "<group>"; };
+		5AECCDC01332F2F500BF7DA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AECCDC21332F2F500BF7DA2 /* ComputerVision-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComputerVision-Prefix.pch"; sourceTree = "<group>"; };
+		5AECCDC31332F2F500BF7DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AECCDC51332F2F500BF7DA2 /* ComputerVisionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerVisionAppDelegate.h; sourceTree = "<group>"; };
+		5AECCDC61332F2F500BF7DA2 /* ComputerVisionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerVisionAppDelegate.m; sourceTree = "<group>"; };
+		5AECCDC91332F2F500BF7DA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5AECCDCB1332F2F500BF7DA2 /* ComputerVisionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerVisionViewController.h; sourceTree = "<group>"; };
+		5AECCDCC1332F2F500BF7DA2 /* ComputerVisionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerVisionViewController.m; sourceTree = "<group>"; };
+		5AECCDCF1332F2F500BF7DA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ComputerVisionViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AECCDAF1332F2F500BF7DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AECCDB71332F2F500BF7DA2 /* UIKit.framework in Frameworks */,
+				5AECCDB91332F2F500BF7DA2 /* Foundation.framework in Frameworks */,
+				5AECCDBB1332F2F500BF7DA2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AECCDA71332F2F500BF7DA2 = {
+			isa = PBXGroup;
+			children = (
+				5AECCDBC1332F2F500BF7DA2 /* ComputerVision */,
+				5AECCDB51332F2F500BF7DA2 /* Frameworks */,
+				5AECCDB31332F2F500BF7DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AECCDB31332F2F500BF7DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AECCDB21332F2F500BF7DA2 /* ComputerVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AECCDB51332F2F500BF7DA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AECCDB61332F2F500BF7DA2 /* UIKit.framework */,
+				5AECCDB81332F2F500BF7DA2 /* Foundation.framework */,
+				5AECCDBA1332F2F500BF7DA2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AECCDBC1332F2F500BF7DA2 /* ComputerVision */ = {
+			isa = PBXGroup;
+			children = (
+				5AECCDC51332F2F500BF7DA2 /* ComputerVisionAppDelegate.h */,
+				5AECCDC61332F2F500BF7DA2 /* ComputerVisionAppDelegate.m */,
+				5AECCDC81332F2F500BF7DA2 /* MainWindow.xib */,
+				5AECCDCB1332F2F500BF7DA2 /* ComputerVisionViewController.h */,
+				5AECCDCC1332F2F500BF7DA2 /* ComputerVisionViewController.m */,
+				5AECCDCE1332F2F500BF7DA2 /* ComputerVisionViewController.xib */,
+				5AECCDBD1332F2F500BF7DA2 /* Supporting Files */,
+			);
+			path = ComputerVision;
+			sourceTree = "<group>";
+		};
+		5AECCDBD1332F2F500BF7DA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AECCDBE1332F2F500BF7DA2 /* ComputerVision-Info.plist */,
+				5AECCDBF1332F2F500BF7DA2 /* InfoPlist.strings */,
+				5AECCDC21332F2F500BF7DA2 /* ComputerVision-Prefix.pch */,
+				5AECCDC31332F2F500BF7DA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AECCDB11332F2F500BF7DA2 /* ComputerVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AECCDD31332F2F500BF7DA2 /* Build configuration list for PBXNativeTarget "ComputerVision" */;
+			buildPhases = (
+				5AECCDAE1332F2F500BF7DA2 /* Sources */,
+				5AECCDAF1332F2F500BF7DA2 /* Frameworks */,
+				5AECCDB01332F2F500BF7DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComputerVision;
+			productName = ComputerVision;
+			productReference = 5AECCDB21332F2F500BF7DA2 /* ComputerVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AECCDA91332F2F500BF7DA2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5AECCDAC1332F2F500BF7DA2 /* Build configuration list for PBXProject "ComputerVision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AECCDA71332F2F500BF7DA2;
+			productRefGroup = 5AECCDB31332F2F500BF7DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AECCDB11332F2F500BF7DA2 /* ComputerVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AECCDB01332F2F500BF7DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AECCDC11332F2F500BF7DA2 /* InfoPlist.strings in Resources */,
+				5AECCDCA1332F2F500BF7DA2 /* MainWindow.xib in Resources */,
+				5AECCDD01332F2F500BF7DA2 /* ComputerVisionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AECCDAE1332F2F500BF7DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AECCDC41332F2F500BF7DA2 /* main.m in Sources */,
+				5AECCDC71332F2F500BF7DA2 /* ComputerVisionAppDelegate.m in Sources */,
+				5AECCDCD1332F2F500BF7DA2 /* ComputerVisionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AECCDBF1332F2F500BF7DA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AECCDC01332F2F500BF7DA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AECCDC81332F2F500BF7DA2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AECCDC91332F2F500BF7DA2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5AECCDCE1332F2F500BF7DA2 /* ComputerVisionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AECCDCF1332F2F500BF7DA2 /* en */,
+			);
+			name = ComputerVisionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AECCDD11332F2F500BF7DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AECCDD21332F2F500BF7DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5AECCDD41332F2F500BF7DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComputerVision/ComputerVision-Prefix.pch";
+				INFOPLIST_FILE = "ComputerVision/ComputerVision-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ComputerVision/OpenCV/lib/iPhoneOS/lib\"",
+					"\"$(SRCROOT)/ComputerVision/OpenCV/lib/iPhoneSimulator/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AECCDD51332F2F500BF7DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ComputerVision/ComputerVision-Prefix.pch";
+				INFOPLIST_FILE = "ComputerVision/ComputerVision-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ComputerVision/OpenCV/lib/iPhoneOS/lib\"",
+					"\"$(SRCROOT)/ComputerVision/OpenCV/lib/iPhoneSimulator/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AECCDAC1332F2F500BF7DA2 /* Build configuration list for PBXProject "ComputerVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AECCDD11332F2F500BF7DA2 /* Debug */,
+				5AECCDD21332F2F500BF7DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AECCDD31332F2F500BF7DA2 /* Build configuration list for PBXNativeTarget "ComputerVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AECCDD41332F2F500BF7DA2 /* Debug */,
+				5AECCDD51332F2F500BF7DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AECCDA91332F2F500BF7DA2 /* Project object */;
+}
